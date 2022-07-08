@@ -2,9 +2,9 @@ import 'bubble_sort.dart';
 
 void main() {
   final list = [9, 4, 10, 3];
-  print('Original: $list');
+  print('Original: $list'); //Original: [9, 4, 10, 3]
   bubbleSort(list);
-  print('Bubble sorted: $list');
+  print('Bubble sorted: $list'); //Bubble sorted: [3, 4, 9, 10]
 }
 
 //**
